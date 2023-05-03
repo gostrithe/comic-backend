@@ -7,8 +7,8 @@ const env = process.env.NODE_ENV || 'development';
 const development = {
   port: process.env.PORT || 3000,
   db: {
-    uri: process.env.DB_URI_DEV || 'mongodb://localhost:27017/myapp',
-    url: process.env.DB_URL || 'mongodb://localhost:27017/myapp'
+    uri: process.env.DB_URI_DEV || 'mongodb://localhost:27017/comic-project',
+    url: process.env.DB_URL || 'mongodb://localhost:27017/comic-project'
   },
   // jwt: {
   //   secret: process.env.JWT_SECRET
